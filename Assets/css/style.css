@@ -1,0 +1,274 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#Thumbnails {
+    height: 3vw;
+    width: 3vw;
+    background-image: url(../img/maria.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+   
+    
+}
+
+.flex{
+    display: flex;
+    flex: 0 0 20vw;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.user-box{
+    height: 10vh;
+    /* width: 100%; */
+    justify-content: space-between;
+    /* background-color: white; */
+    border: solid #BEC1BB 2px;
+}
+
+.flex-item1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.flex-item2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.fs-3{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-left: 0.25rem;
+    margin-top: 0.5rem;
+    color: #828485;
+    
+    
+   
+}
+
+.my-1{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+
+
+
+.my-xs{
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    color: #BEC1BB;
+}
+
+.px-1{
+    padding-left: 0.5rem;
+}
+
+.flex-item3{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 20vh;
+    border: solid #BEC1BB 2px;
+    flex-shrink: 0;
+   
+}
+
+.button{
+    background-color: #a491d2;
+    width: 70%;
+    height: 30%;
+    border: solid #a491d2 ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #cdc3e6 ;
+    border: solid  #cdc3e6 ;
+    text-decoration: hand;
+}
+
+/* button:visited{
+    background: #828485 ;
+    color: #828485;
+} */
+
+.Thumbnails-1{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+}
+
+.Thumbnails-2{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.Thumbnails-3{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.Thumbnails-4{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.Thumbnails-5{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.Thumbnails-6{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.Thumbnails-7{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.16.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.Thumbnails-8{
+    height: 4vw;
+    width: 4vw;
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+    
+}
+
+.color-dark{
+    color: #1b1f21;
+}
+.border{
+    border: solid #BEC1BB 2px;
+    border-collapse: collapse;
+}
+
+.px-6{
+    padding-left: 6px;
+}
+
+.flex1{
+    display: flex;
+    flex: 0 0 80vw;
+    flex-direction: column;
+    width: 80vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e8ebe4;
+    overflow: hidden;
+   
+}
+
+.img {
+    width: 20vw;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+.text-xsmall{
+    font-size: 10px;
+
+}
+.text-small{
+    font-size: 14px;
+}
+
+.text-medium{
+    font-size: 16px;
+}
+
+.text-large{
+    font-size: 45px;
+}
