@@ -1,46 +1,50 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    
+    font-family: 'Open Sans', sans-serif;   
 }
 
-#Thumbnails {
-    height: 3vw;
-    width: 3vw;
-    background-image: url(../img/maria.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 25px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
+.text{
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .container {
     display: flex;
     height: 100vh;
-   
     
+      
 }
+
 
 .flex{
     display: flex;
-    flex: 0 0 20vw;
+    flex: 0 0 20vw; 
     flex-direction: column;
     height: 100vh;
+    /* overflow: scroll; */
     
+ 
 }
 
 .user-box{
     height: 10vh;
     /* width: 100%; */
     justify-content: space-between;
-    /* background-color: white; */
     border: solid #BEC1BB 2px;
+   /*  border-collapse: collapse; */
+}
+
+
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7vh;
 }
 
 .flex-item1{
@@ -48,23 +52,23 @@ body {
     flex-direction: row;
     align-items: center;
     height: 10vh;
-
+   
 }
 
 .flex-item2{
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
+    
 }
 
 .fs-3{
     font-size: 1.5rem;
     margin-right: 1rem;
     margin-left: 0.25rem;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     color: #828485;
-    
-    
+      
    
 }
 
@@ -90,7 +94,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 20vh;
+    height: 12vh;
     border: solid #BEC1BB 2px;
     flex-shrink: 0;
    
@@ -99,7 +103,7 @@ body {
 .button{
     background-color: #a491d2;
     width: 70%;
-    height: 30%;
+    height: 40%;
     border: solid #a491d2 ;
     
 }
@@ -115,10 +119,22 @@ button:hover{
     text-decoration: hand;
 }
 
-/* button:visited{
-    background: #828485 ;
-    color: #828485;
-} */
+button:active{
+    background: #BEC1BB;
+    border: solid #BEC1BB ;
+}
+
+#Thumbnails {
+    height: 3vw;
+    width: 3vw;
+    background-image: url(../img/maria.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+}
 
 .Thumbnails-1{
     height: 4vw;
@@ -239,14 +255,15 @@ button:hover{
     display: flex;
     flex: 0 0 80vw;
     flex-direction: column;
-    width: 80vw;
     height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #e8ebe4;
-    overflow: hidden;
-   
+  /*   overflow: hidden;  */
+  
+  
+  
 }
 
 .img {
@@ -255,7 +272,10 @@ button:hover{
     border-radius: 1rem;
 }
 
-
+.my-p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .text-xsmall{
     font-size: 10px;
@@ -272,3 +292,4 @@ button:hover{
 .text-large{
     font-size: 45px;
 }
+
