@@ -121,124 +121,34 @@ button:active{
     border: solid #BEC1BB ;
 }
 
-#Thumbnails {
+#Thumbnails-list {
     height: 3vw;
     width: 3vw;
-    background-image: url(../img/maria.jpg);
-    background-position: center;
-    background-size: cover;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem; 
+}
+
+.img-radius-list{
+    height: 3vw;
+    width: 3vw;
     border-radius: 25px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
 }
 
-.Thumbnails-1{
+.Thumbnails{
     height: 4vw;
     width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-}
-
-.Thumbnails-2{
-    height: 4vw;
-    width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-    
-}
-
-.Thumbnails-3{
-    height: 4vw;
-    width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-    
-}
-
-.Thumbnails-4{
-    height: 4vw;
-    width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-    
-}
-
-.Thumbnails-5{
-    height: 4vw;
-    width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-    
-}
-
-.Thumbnails-6{
-    height: 4vw;
-    width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-    
-}
-
-.Thumbnails-7{
-    height: 4vw;
-    width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.16.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 30px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    margin-left: 2rem; 
-    
-}
-
-.Thumbnails-8{
-    height: 4vw;
-    width: 4vw;
-    background-position: center;
-    background-size: cover; 
-    border-radius: 30px;
     margin-bottom: 1rem;
     margin-top: 1rem;
     margin-left: 2rem;  
 }
 
-.name{
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
-   /*  background-position: center;
-    background-size: cover; */
-}
+.img-radius{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 30px;
+} 
+
 .color-dark{
     color: #1b1f21;
 }
@@ -288,4 +198,6 @@ button:active{
 .text-large{
     font-size: 45px;
 }
+
+
 
