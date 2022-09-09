@@ -45,7 +45,7 @@ body {
     height: 7vh;
 }
 
-.flex-item1{
+.flex-thumbnails{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,7 +53,7 @@ body {
    
 }
 
-.flex-item2{
+.flex-icon{
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
@@ -70,7 +70,7 @@ body {
    
 }
 
-.my-1{
+.my{
     margin-top: 0.5rem;
     margin-left: 1rem;
     margin-bottom: 0;
@@ -87,7 +87,7 @@ body {
     padding-left: 0.5rem;
 }
 
-.flex-item3{
+.flex-button{
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -226,15 +226,19 @@ button:active{
 .Thumbnails-8{
     height: 4vw;
     width: 4vw;
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
     border-radius: 30px;
     margin-bottom: 1rem;
     margin-top: 1rem;
     margin-left: 2rem;  
 }
 
+.name{
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
+   /*  background-position: center;
+    background-size: cover; */
+}
 .color-dark{
     color: #1b1f21;
 }
@@ -247,7 +251,7 @@ button:active{
     padding-left: 6px;
 }
 
-.flex1{
+.flex-container{
     display: flex;
     flex: 0 0 80vw;
     flex-direction: column;
